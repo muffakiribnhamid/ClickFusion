@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI("AIzaSyD6uWsY_qFEAcAJpfkPM-w3DOIovo2bgR4");
 
 export const generateBio = async (userAnswers) => {
   try {
